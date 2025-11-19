@@ -32,7 +32,7 @@ for i in range(TOTAL_QUESTIONS):
         else:
             wrong += 1
             break
-    end_time = time.time()
+end_time = time.time()    
 print('---------------------------------------------')
 total_time = round(end_time - start_time, 2)
 print("You have total wrong answers",wrong, " and right answers", right, "total time you took is", total_time, "in seconds")
